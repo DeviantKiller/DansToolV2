@@ -4,7 +4,7 @@ Multi Layered Menu Demonstration
 v1.0    12th September 2018: Started
 
 #####################################################################>
-$xAppName = "DantsTool"
+$xAppName = "DansTool"
 [BOOLEAN]$global:xExitSession=$false
 function LoadMenuSystem(){
 	[INT]$xMenu1 = 0
@@ -146,5 +146,5 @@ LoadMenuSystem
 If ($xExitSession){
 	exit-pssession #… User quit & Exit
 }else{
-	.\DantsTool.ps1 #… Loop the function
+	.\DansTool.ps1 #… Loop the function
 }
